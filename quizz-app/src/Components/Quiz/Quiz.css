@@ -1,0 +1,62 @@
+.container {
+  width: 640px; /* Konteynerin genişliği ayarlanır. */
+  margin: auto; /* Konteyneri yatayda ortalamak için kullanılır. */
+  margin-top: 150px; /* Konteynerin üst kenar boşluğu ayarlanır. */
+  background: white; /* Konteynerin arka plan rengi beyaz olarak ayarlanır. */
+  color: #262626; /* Konteyner içindeki metin rengi koyu gri olarak ayarlanır. */
+  display: flex; /* Flexbox düzenini kullanır, çocuk öğeler esnek bir düzenle yerleştirilir. */
+  flex-direction: column; /* Çocuk öğeler dikey yönde (sütun) yerleştirilir. */
+  gap: 20px; /* Çocuk öğeler arasındaki boşluk ayarlanır. */
+  border-radius: 10px; /* Konteynerin köşeleri yuvarlatılır. */
+  padding: 40px 50px; /* Konteynerin iç kenar boşlukları ayarlanır. */
+}
+
+.container hr {
+  height: 2px; /* Yatay çizginin yüksekliği ayarlanır. */
+  border: none; /* Çizginin kenar sınırları kaldırılır. */
+  background: #707070; /* Çizginin rengi orta gri olarak ayarlanır. */
+}
+
+.container h2 {
+  font-size: 27px; /* Başlık (h2) font boyutu ayarlanır. */
+  font-weight: 500; /* Başlık (h2) font kalınlığı, bu da normalden biraz daha kalın bir yazı stilidir. */
+}
+
+.container ul li {
+  display: flex; /* Liste öğeleri flexbox düzeniyle yerleştirilir. */
+  align-items: center; /* Liste öğelerinin içerikleri dikeyde ortalanır. */
+  height: 70px; /* Liste öğesinin yüksekliği olarak ayarlanır. */
+  padding-left: 15px; /* Liste öğesinin sol kenar boşluğu ayarlanır. */
+  border: 1px solid #686868; /* Liste öğesinin etrafına  gri bir kenarlık eklenir. */
+  border-radius: 8px; /* Liste öğesinin köşeleri yuvarlatılır. */
+  margin-bottom: 20px; /* Liste öğeleri arasındaki alt boşluk ayarlanır. */
+  font: 20px; /* Liste öğesi metninin font boyutu ayarlanır. */
+  cursor: pointer; /* Liste öğesinin üzerine gelindiğinde imleç pointer olarak değişir, bu da öğenin tıklanabilir olduğunu gösterir. */
+}
+
+.container button {
+  margin: auto; /* Buton yatayda ortalanır. */
+  width: 250px; /* Butonun genişliği piksel olarak ayarlanır. */
+  height: 65px; /* Butonun yüksekliği ayarlanır. */
+  background: #553f9a; /* Butonun arka plan rengi mor olarak ayarlanır. */
+  color: #fff; /* Buton metni beyaz renkte gösterilir. */
+  font-size: 25px; /* Buton metninin font boyutu ayarlanır. */
+  font-weight: 500; /* Buton metninin font kalınlığı ayarlanır. */
+  border-radius: 8px; /* Butonun köşeleri  yuvarlatılır. */
+  cursor: pointer; /* Butonun üzerine gelindiğinde imleç pointer olarak değişir. */
+}
+
+.container .index {
+  margin: auto; /* İndeks bilgisi yatayda ortalanır. */
+  font-size: 18px; /* İndeks bilgisinin font boyutu ayarlanır. */
+}
+
+.container .correct {
+  background: #dffff2; /* Doğru cevabın arka plan rengi açık yeşil olarak ayarlanır. */
+  border-color: #00d397; /* Doğru cevabın kenarlık rengi yeşil olarak ayarlanır. */
+}
+
+.container .wrong {
+  background: #ffebeb; /* Yanlış cevabın arka plan rengi açık kırmızı olarak ayarlanır. */
+  border-color: #ff4a4a; /* Yanlış cevabın kenarlık rengi kırmızı olarak ayarlanır. */
+}
