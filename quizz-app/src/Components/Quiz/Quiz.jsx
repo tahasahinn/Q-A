@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "./Quiz.css";
 import { data } from "../../assets/data";
 
-const Quiz = () => {
+const Quiz = () => {s
   let [index, setİndex] = useState(0); 
   let [question, setQuestion] = useState(data[index]); /.
   let [lock,setLock] = useState(false); 
